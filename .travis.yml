@@ -5,6 +5,6 @@ services:
   - docker
  
 before_install:
-  - docker build -t registry.heroku.com/"$v2rayghq"/web .
-  - docker login -u "$ghq200102@gmail.com" -p "$f752b9d9-ee4f-428b-aa1f-7125aa937885" registry.heroku.com
-  - docker push registry.heroku.com/"$v2rayghq"/web
+  - docker build -t registry.heroku.com/"v2rayghq"/web .
+  - docker login -u "ghq200102@gmail.com" -p "f752b9d9-ee4f-428b-aa1f-7125aa937885" registry.heroku.com
+  - docker push registry.heroku.com/"v2rayghq"/web
